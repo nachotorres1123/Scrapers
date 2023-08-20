@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
 # Configuración del bot
-TOKEN = 6476747450:AAEY8OyxUcIYhbOXi2Ek_3DvbNhFIDSGbKk # Reemplaza 'TU_TOKEN_AQUÍ' con el token de tu bot
+TOKEN = '6476747450:AAHPcqRaW8KVG3hPKoezyx0rOcC_HeTLX2Y' # Reemplaza 'TU_TOKEN_AQUÍ' con el token de tu bot
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 

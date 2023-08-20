@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
 # Configuración del bot
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '6476747450:AAEY8OyxUcIYhbOXi2Ek_3DvbNhFIDSGbKk'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Función para extraer datos de la página web
 def extract_data():
-    url = 'https://example.com'  # Cambia esta URL a la página de la que deseas extraer datos
+    url = 'https://randomaddress-9d94ddea293c.herokuapp.com/'  # Cambia esta URL a la página de la que deseas extraer datos
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
